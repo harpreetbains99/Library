@@ -81,7 +81,7 @@ const LoginPage = () => {
         token: data.token
       }));
 
-      router.push('/MohitBains');
+      router.push('/harpreet');
     } catch (error) {
       console.error('Login error:', error);
       setErrorMessage(error.message || 'Login failed. Please try again.');
